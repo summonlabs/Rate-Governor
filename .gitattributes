@@ -1,0 +1,13 @@
+# Line endings are explicit so that a clone on any platform gets the same
+# bytes in the working tree that were validated.
+* text=auto
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.cmake text eol=lf
+*.in text eol=lf
+CMakeLists.txt text eol=lf
+LICENSE text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
